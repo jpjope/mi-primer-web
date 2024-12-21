@@ -1,0 +1,92 @@
+[
+    {
+        "id":"uñas-01",
+        "titulo":"Uñas 01",
+        "imagen":"../img/uñas2.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-02",
+        "titulo":"Uñas 02",
+        "imagen":"../img/uñas3.jpg",
+        "precio":"7700"
+    },
+    {
+        "id":"uñas-03",
+        "titulo":"Uñas 03",
+        "imagen":"../img/uñas4.jpg",
+        "precio":"9700"
+    },
+    {
+        "id":"uñas-05",
+        "titulo":"Uñas 05",
+        "imagen":"../img/uñas5.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-06",
+        "titulo":"Uñas 06",
+        "imagen":"../img/uñas6.jpg",
+        "precio":"9700"
+    },
+    {
+        "id":"uñas-01",
+        "titulo":"Uñas 01",
+        "imagen":"../img/uñas2.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-02",
+        "titulo":"Uñas 02",
+        "imagen":"../img/uñas3.jpg",
+        "precio":"7700"
+    },
+    {
+        "id":"uñas-03",
+        "titulo":"Uñas 03",
+        "imagen":"../img/uñas4.jpg",
+        "precio":"9700"
+    },
+    {
+        "id":"uñas-05",
+        "titulo":"Uñas 05",
+        "imagen":"../img/uñas5.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-06",
+        "titulo":"Uñas 06",
+        "imagen":"../img/uñas6.jpg",
+        "precio":"9700"
+    },
+    {
+        "id":"uñas-01",
+        "titulo":"Uñas 01",
+        "imagen":"../img/uñas2.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-02",
+        "titulo":"Uñas 02",
+        "imagen":"../img/uñas3.jpg",
+        "precio":"7700"
+    },
+    {
+        "id":"uñas-03",
+        "titulo":"Uñas 03",
+        "imagen":"../img/uñas4.jpg",
+        "precio":"9700"
+    },
+    {
+        "id":"uñas-05",
+        "titulo":"Uñas 05",
+        "imagen":"../img/uñas5.jpg",
+        "precio":"6700"
+    },
+    {
+        "id":"uñas-06",
+        "titulo":"Uñas 06",
+        "imagen":"../img/uñas6.jpg",
+        "precio":"9700"
+    } 
+]

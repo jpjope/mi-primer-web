@@ -1,0 +1,394 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+:root{
+    --color1: #E1AEFF;
+    --color2: #f868d2;
+    --color3: #fad8f1;
+    --letraSom1: 1px 1px 2px white,2px 1px 3px white, 3px 2px 4px white,4px 3px 5px var(--color2);
+    --bgconten: 2px 2px 30px var(--color2) inset;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    width: 96%;
+    margin: 0px auto;
+    padding-top: 3%;
+    height: 75vh;
+    margin-top: 2%;
+    padding-bottom: 0.5%;
+}
+
+/*CONTACTOS*/
+#contacto{
+    display: flex;
+    width: 8%;
+}
+#contacto ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0% auto;
+    padding:0% 1%;
+    border-radius: 20px;
+}
+#contacto ul li{
+    width: 80%;
+    margin: 10% auto;
+    background-color: var(--color2);
+    border-radius: 10px;
+    padding: 2px;
+    transition: all 300ms;
+}
+#contacto ul li a{
+    display: block;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 1px 4px black;
+    margin: 0px auto;
+}
+#contacto ul li img{
+    width: 30px;
+    display: block;
+    margin: 0px auto 
+}
+#contacto ul li:hover{
+    background-color:white;  
+    box-shadow: 0px 0px 4px black inset;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#contacto ul li:hover a{
+    color: var(--color1);
+    text-shadow: 0px 1px 2px white;
+}
+
+/*REDES SOCIALES*/
+#redes_sociales{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 10px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px black;
+    margin-right: 1%;
+    background-color: var(--color1);
+    justify-content: space-between;
+}
+#redes_sociales #slider{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+#slider ul{
+    display: flex;
+    padding: 0%;
+    width: 600%;
+    height: 60vh ;
+    animation: slide 10s  infinite alternate ease-in-out;
+}
+#slider li{
+    list-style: none;
+    width: 100%;
+}
+#slider ul li img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+#redes_sociales #div_header2_2{
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: var(--color1);
+}
+#redes_sociales #div_header2_2 h2{
+    color:  var(--color2);
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-shadow: var(--letraSom1);
+}
+#redes_sociales #div_header2_2 h1{
+    color: var(--color2);
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: var(--letraSom1);
+}
+
+/*FORMULARIO*/
+#formulario{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    margin: 0px auto;
+    height: auto;
+    border-radius: 16px;
+    padding: 5px; 
+}
+#formulario fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    border-radius: 16px;
+    background-color: var(--color1);
+    box-shadow: 0px 0px 4px white;
+    border: 2px solid white;
+}
+#formulario .mensaje{
+    display: block;
+    width: 250px;
+    margin: 2px auto;
+    color: black;
+    text-align: center;
+}
+#formulario fieldset .label{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 1px white;
+}
+#formulario fieldset .input{
+    padding: 3px;
+    background-color: white;
+    border-radius: 10px;
+    height: 18px;
+    color: black;
+    text-shadow: 1px 1px 0px white;
+}
+#formulario fieldset .boton{    
+    background-color: var(--color2);
+    font-size: 19px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black inset;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    padding: 1px;
+    cursor: pointer;
+}
+#formulario fieldset .boton:hover{
+    background-color: var(--color1);
+    box-shadow: 0px 0px 8px white inset;
+    text-shadow: 2px 2px 2px white;
+    text-transform: uppercase;
+}
+#formulario fieldset #textarea{
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    letter-spacing: 1px;
+    padding: 4px;
+}
+/*DISEÑO DEL NAV*/
+#nav{
+    width: 96%;
+    margin: 0px auto;
+    height: 12vh;
+    display: flex;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 11vh;
+    padding: 0% 1%;
+    margin: auto;
+    justify-content: space-between;  
+}
+#nav ul li{
+    width: 31%;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    padding: 0.5%;
+    transition: all 300ms;
+    background: var(--color2);
+    border: 2px white solid;
+    box-shadow: var(--letraSom1);
+    transition: all 300ms;
+}
+#nav ul li a{
+    display: inline-block;
+    width: 100%;
+    border-radius: 8px;
+    color: var(--color3);
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 10px;
+    transition: all 300ms;  
+}
+#nav ul li:hover {
+    background-color: white;
+    box-shadow: 0px 0px 8px black inset;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition-duration: 100ms;
+    margin-top: 3px;
+}
+
+@keyframes slide{
+    0%{margin-left: 0%;}
+    14.6%{margin-left: 0%}
+
+    16.6%{margin-left: -100%;}
+    31.2%{margin-left:-100%}
+
+    33.2%{margin-left:-200%;}
+    47.8%{margin-left:-200%}
+
+    49.8%{margin-left: -300%;}
+    64.4%{margin-left:-300%}
+
+    66.4%{margin-left: -400%;}
+    81%{margin-left: -400%}
+
+    83%{margin-left: -500%;}
+    97.6%{margin-left: -500%}
+}
+@media (height < 400px){
+    #header{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        padding: 0%;
+    }
+    #formulario, #contacto, #redes_sociales{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1% !important;
+    }
+    fieldset{
+        width: 100% !important;
+    }
+    #contacto{
+        height: 23vh !important;
+
+    }
+    #contacto ul{
+        flex-direction: row;
+        height: 25vh !important;
+    }
+    #contacto ul li{
+        width: 13%;
+    }
+    #nav{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+    #nav ul li a{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+}
+@media (width < 456px){
+    #formulario{
+        margin-bottom: 2%;
+    }
+    #redes_sociales{
+        margin-top: 2% !important;
+    }
+    #contacto ul{
+        flex-wrap: wrap;
+    }
+    #contacto ul li{
+        margin: 0% 10px!important;
+        margin-bottom: 2px !important;
+        flex-basis: calc(100% / 4 ) !important;
+    }
+    #contacto ul li img{
+        font-size: 20px;
+        width: 20px;
+    }
+    #nav{
+        padding: 0%;
+        padding-bottom: 0%;
+    }
+    #nav ul li{
+        width: 80% !important;
+    }
+    #nav ul li a{
+        letter-spacing: 2px;
+    }
+}
+
+@media (width < 750px){
+   #header{
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+   }
+   #formulario{
+    width: 90%;
+   }
+   #formulario fieldset{
+    width:100%;
+   }
+   #contacto{
+    width: 90%;
+    height: 13vh;
+    margin: 0 auto;
+   }
+   #contacto ul{
+    flex-direction: row;
+   }
+   #contacto ul li{
+    margin-right: 5px;
+    margin-bottom: 5px !important;
+   }
+   #redes_sociales{
+    width: 90%;
+    margin: 0 auto;
+   }
+   #nav{
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+    #nav ul{
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    #nav ul li{
+    width: 60% ;
+    margin-bottom: 10PX;
+    }
+    #nav ul li:hover{
+        background-color: aliceblue;
+        border: 4px solid var(--color2);
+    }
+    #nav ul li a{
+        color: aliceblue;
+    }
+    #nav ul li a:hover{
+        color: var(--color2) !important;
+    }
+}
+@media (750px < width < 1100px){
+ #contacto ul li a{
+    font-size: 11px;
+ }
+}

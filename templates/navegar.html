@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegar</title>
+    
+    <link rel="stylesheet" href="../css/navegar.css">
+</head>
+<body onload="cargaCarrusel()">
+    <div class="contenedor">
+        <nav class="divMenu">
+            <div class="menuContenedor">
+                <ul>
+                    <a href="../index.html" id="Inicio">
+                        <li>Inicio</li>
+                    </a><a href="./quienSoy.html">
+                        <li>Quien soy</li>
+                    </a><a href="./fotos.html">
+                        <li>Fotos</li>
+                    </a><a href="./contacto.html">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+                <div class="botonesMenu">
+                    <button class="botonCarrito"><p class="botonCarritoNum"></p></button>
+                    <button class="botonMenu" id="menu"></button>
+                </div>
+            </div>
+            
+            <div class="cajaCarrito"> 
+                <div class="contenedorCarrito" id="contenedorCarrito">
+                    <!-- cargamos desde js -->
+                </div>
+                <div id="checkout-modal">
+                    <h2 class="gracias" >GRACIAS POR TU COMPRA...</h2>
+                    <div class="checkout-content">
+                        <h2>Finalizar Compra</h2>
+                        <p>Subtotal: $<span id="subtotal">0</span></p>
+                        <p>Descuento: $<span id="descuento">0</span></p>
+                        <p>IVA (21%): $<span id="iva">0</span></p>
+                        <p><strong>Total a Pagar: $<span id="total">0</span></strong></p>
+                        <button class="checkout-boton" id="confirmarCompra" onclick="realizarCompra()">Confirmar</button>
+                        <button class="checkout-boton" id="cancelar" onclick="cerrarCheckout()">Cancelar</button>
+                    </div>
+                </div>
+                <div class="contenedorSubCarrito">
+                    <button id="vaciarCarrito">Vaciar Carrito</button>
+                    <button id="checkout">Checkout</button>
+                    <h2 class="mensaje-carrito" id="mensaje-carrito"> ESTÁ VACIO !</h2>
+                </div>
+            </div>
+        </nav>
+        <div id="presentacion">
+            <div id="carruselPresentacion">
+                <figure>
+                    <img src="../img/uñas1.png" alt="" id="imgPresentacion">
+                </figure>
+            </div>
+            <div id="disenio">
+                <h2>DISEÑO</h2>
+                <h1>2025</h1>
+            </div>
+        </div>
+    
+        <main class="main">
+            <div class="cajaProductos">
+                <!--cargar productos desde js-->
+            </div>
+        
+        </main>
+        <footer id="footer">
+            <div id="footer1">
+                <ul>
+                    <li></li>
+                    <li id="li-h2"><h2>SOLICITAR UN TURNO</h2></li>
+                    <li id="li-whatsapp"><a href="#"> <img src="../img/whatsapp.svg" alt="" >whatsapp</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div id="footer2">
+                <div class="footer_nav div_footer">
+                    <ul id="nav_2">
+                        <li class="solo"><a href="../index.html">Inicio</a></li>
+                        <li><a href="./quienSoy.html">Quien soy</a></li>
+                        <li><a href="./fotos.html">Fotos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="div_footer">
+                   <iframe src="https://www.youtube.com/embed/U3FBozxmMXE?si=J0oIk9ccMdD8JpaH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                </div>
+                <div class="div_footer">
+                    
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52454.374236563985!2d-58.632302061556764!3d-34.74555593484817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc5b04ca883fd%3A0x2442b24985879e7d!2sGregorio%20de%20Laferrere%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1704914724232!5m2!1ses-419!2sar" width="500" height="235" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 
+                </div> 
+            </div>
+            <div id="footer3">
+                <h5>&copy Derecho reservado a PITERWEB 2024</h5>
+            </div>
+        </footer>
+        
+    </div>
+    
+</body>
+    <script src="../javascript/navegar1.js"></script>
+    <script src="../javascript/navegar.js"></script>
+</html>
